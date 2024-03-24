@@ -11,7 +11,7 @@ namespace VehicalRentalManagment
         // Properties
         public string Model { get; set; }
         public string Manufacturer { get; set; }
-        public int Year { get; set; }
+        public int Year { get; set; }  
         public double RentalPrice { get; set; }
 
         // Constructor

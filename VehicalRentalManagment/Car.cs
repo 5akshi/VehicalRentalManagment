@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace VehicalRentalManagment
 {
-    public class Car : Vehicle
+    public class Car : Vehicle 
     {
         // Additional properties specific to cars
         public int Seats { get; set; }
         public string EngineType { get; set; }
         public string Transmission { get; set; }
-        public bool Convertible { get; set; }
+        public bool Convertible { get; set; } 
 
         // Constructor
         public Car(string model, string manufacturer, int year, double rentalPrice,

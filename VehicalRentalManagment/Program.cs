@@ -3,7 +3,7 @@ using VehicalRentalManagment;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) 
     {
         // Create vehicles
         Car car1 = new Car("Toyota Camry", "Toyota", 2018, 50.00, 5, "V6", "Automatic", false);

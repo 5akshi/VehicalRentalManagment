@@ -19,9 +19,9 @@ class Program
         rentalAgency.AddVehicle(motorcycle1);
 
         // Display fleet details
-        rentalAgency.DisplayFleet();
 
-        // Rent a vehicle
+        // Rent a vehicle        rentalAgency.DisplayFleet();
+
         rentalAgency.RentVehicle(truck1);
 
         // Display updated fleet details

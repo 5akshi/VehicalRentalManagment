@@ -13,7 +13,7 @@ namespace VehicalRentalManagment
         public double TotalRevenue { get; private set; }
 
         // Constructor
-        public RentalAgency()
+        public RentalAgency() 
         {
             Fleet = new List<Vehicle>();
             TotalRevenue = 0;
